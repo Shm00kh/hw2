@@ -5,7 +5,7 @@
     <title>Contact - My Website</title>
 </head>
 
-<body>
+<body id="top">
 
 <header>
     <h1>Contact Me</h1>
@@ -23,19 +23,17 @@
     <section>
         <h2>Send Me a Message here</h2>
 
-        <form>
-
+        <form action="#">
             <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name"><br><br>
+            <input type="text" id="name" name="name" required><br><br>
 
             <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
+            <input type="email" id="email" name="email" required><br><br>
 
             <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+            <textarea id="message" name="message" rows="5" cols="30" required></textarea><br><br>
 
             <input type="submit" value="Send">
-
         </form>
     </section>
 
@@ -45,6 +43,10 @@
             <a href="mailto:shmookhmfy2@gmail.com">contact me with Email</a>
         </p>
     </section>
+
+    <p>
+        <a href="#top">Back to Top</a>
+    </p>
 
 </main>
 
