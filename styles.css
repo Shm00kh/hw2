@@ -4,6 +4,7 @@
 
 body {
     font-family: "Segoe UI", Arial, sans-serif;
+     font-size: 1rem;
     margin: 0;
     padding: 0;
     background-color: #fff5f9;
@@ -53,6 +54,10 @@ nav a {
 }
 
 nav a:hover {
+    color: white;
+}
+
+header a {
     color: white;
 }
 
