@@ -19,18 +19,18 @@
 </nav>
 </header>
 
-
-
 <main>
 
     <article id="intro">
         <h2 class="highlight"> Project 1: Rashita – Smart Medication Management System</h2>
 
-        <p class="highlight">
+        <p class="highlight" id="desc1">
             This project is a mobile healthcare application designed to help users manage their medications safely and efficiently.
             It includes medication reminders, drug interaction detection, pharmacy locator using GPS,
             and online medicine ordering with order tracking.
         </p>
+
+        <button onclick="toggleDescription('desc1')">Show/Hide</button>
 
         <p>
             <time datetime="2025-04">April 2025</time>
@@ -52,10 +52,14 @@
     <article>
         <h2 class="highlight">Project 2: HCI - Bloomind Garden</h2>
 
-        <p class="highlight">
+        <!-- صححنا المكان -->
+        <p class="highlight" id="desc2">
             Bloomind Garden is a mobile application concept designed to support mental well-being through reflection.
             Users record positive memories using text, images or voice notes, which grow into flowers or trees in a virtual garden representing emotional growth over time.
         </p>
+
+        <!-- أضفنا الزر -->
+        <button onclick="toggleDescription('desc2')">Show/Hide</button>
 
         <p>
             <time datetime="2025-11">November 2025</time>
@@ -76,11 +80,14 @@
     <article>
         <h2 class="highlight">Project 3: Personal Website – Shmookh Portfolio</h2>
 
-        <p class="highlight">
+        <p class="highlight" id="desc3">
             This project is my personal website where I showcase my work, projects, and creative designs.
             The website presents a collection of my academic projects, technical skills, leadership experiences,
             and a brief introduction about myself. It reflects my interests in design, technology, and software development.
         </p>
+
+        <!-- أضفنا الزر -->
+        <button onclick="toggleDescription('desc3')">Show/Hide</button>
 
         <p>
             <time datetime="2025-07">July 2025</time>
@@ -109,6 +116,9 @@
         
     </p>
 </footer>
+
+<!-- مهم -->
+<script src="scripts.js"></script>
 
 </body>
 </html>

@@ -18,17 +18,14 @@
     <a href="contact.html">Contact</a>
 </nav>
 
-
 </header>
-
-
 
 <main>
 
     <section id="intro">
         <h2 class="highlight">Send Me a Message here</h2>
 
-        <form action="#">
+        <form onsubmit="return validateForm()">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" required><br><br>
 
@@ -61,6 +58,9 @@
         <a href="mailto:shmookhmfy2@gmail.com">contact me with Email</a>
      </p>
 </footer>
+
+<!-- هذا أهم تعديل -->
+<script src="scripts.js"></script>
 
 </body>
 </html>
