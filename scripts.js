@@ -1,6 +1,6 @@
-/* =========================
+/* 
    1) Contact Page (Validation)
-========================= */
+*/
 function validateForm() {
     var name = document.getElementById("name").value;
     var email = document.getElementById("email").value;
@@ -14,9 +14,9 @@ function validateForm() {
 }
 
 
-/* =========================
+/* 
    2) Projects Page (Show/Hide)
-========================= */
+ */
 function toggleDescription(id) {
     var element = document.getElementById(id);
 
@@ -28,16 +28,13 @@ function toggleDescription(id) {
 }
 
 
-/* =========================
+/* 
    3) CV Page (Mouse Hover)
-   + تشغيل كل الأكواد عند تحميل الصفحة
-========================= */
+ */
 window.onload = function() {
 
-    // ✅ تشغيل إضافة التاريخ
     addDate();
 
-    // CV hover
     var quote = document.getElementById("quote");
 
     if (quote) {
@@ -53,9 +50,9 @@ window.onload = function() {
 };
 
 
-/* =========================
+/* 
    4) Home Page (On Load)
-========================= */
+ */
 function addDate() {
 
     var p = document.createElement("p");
